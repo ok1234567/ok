@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Domótica</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+
+    
+    <!-- Js -->
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/min/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.js"></script>
+
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="js/google-map-init.js"></script>
+
+
+    <script src="js/main.js"></script>
+
+    <script>
+    function myMap() {
+    var mapProp= {
+        center:new google.maps.LatLng(40.633193,-8.659456),
+        zoom:5,
+    };
+    var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    }      
+    
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+
+  </head>
+  <body>
+
+
+
+    <!-- Header Start -->
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- header Nav Start -->
+          
+
+
+          <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="background-color: white; height: 70px">
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+                <a class="navbar-brand" href="index.html">
+                  <img src="img/logo.png" width="60px" height="60px" align="top">
+                </a>
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+
+              </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                      <a class="dropdown-toogle" data-toggle="dropdown">CLIENTE<span class="caret"></span></a>
+                      <ul class="dropdown-menu">  
+                        <li><a href="#intro" style="transition: all 1.0s linear;">VISÃO</a></li>
+                          <li><a href="#intro_c" style="transition: all 1.0s linear;">CONCEITO</a></li>
+                        <li><a href="#service" style="transition: all 1.0s linear;">FUNCIONALIDADES</a></li>
+                        <li><a href="#call-to-action" style="transition: all 1.0s linear;">VANTAGENS</a></li>
+                        <li><a href="demo.html#intro" style="transition: all 1.0s linear;">PROTÓTIPO</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a class="dropdown-toogle" data-toggle="dropdown">UTILIZADOR<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="user.html" style="transition: all 1.0s linear;">GUIA</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a class="dropdown-toogle" data-toggle="dropdown">ESPECIFICAÇÃO<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                      	<li><a href="specification.html#introdu" style="transition: all 1.0s linear;">CONTEXTUALIZAÇÃO</a></li>
+                        <li><a href="specification.html#call-to-action" style="transition: all 1.0s linear;">RECURSOS</a></li>
+                        <li><a href="specification.html#intro" style="transition: all 1.0s linear;">CASOS DE UTILIZAÇÃO E CENÁRIOS</a></li>
+                        <li><a href="specification.html#intro_c" style="transition: all 1.0s linear;">REQUISITOS</a></li>
+                        <li><a href="specification.html#intro_a" style="transition: all 1.0s linear;">ARQUITETURA</a></li>
+                        <li><a href="specification.html#intro_m" style="transition: all 1.0s linear;">DATA MODEL</a></li>
+
+                      </ul>
+                    </li>
+                     <li class="dropdown">
+                      <a class="dropdown-toogle" data-toggle="dropdown">DEVELOPER<span class="caret"></span></a>
+                      <ul class="dropdown-menu">  
+                      	<li><a href="developer_area.html#intro_c" style="transition: all 1.0s linear;">REQUISITOS</a></li>
+                        <li><a href="developer_area.html#intro" style="transition: all 1.0s linear;">ARQUITETURA ATUAL</a></li>
+                        <li><a href="developer_area.html#intro_m" style="transition: all 1.0s linear;">DATA MODEL</a></li>
+                        <li><a href="developer_area.html#call-to-action" style="transition: all 1.0s linear;">MANUAL DEVELOPER</a></li>
+                          <li><a href="developer_area.html#descricao_testes" style="transition: all 1.0s linear;">DESCRIÇÃO DE TESTES</a></li>
+                          <li><a href="demo.html#intro" style="transition: all 1.0s linear;">PROTÓTIPO</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a class="dropdown-toogle" data-toggle="dropdown">EQUIPA<span class="caret"></span></a>
+                      <ul class="dropdown-menu">  
+                      	<li><a href="#equipa" style="transition: all 1.0s linear;">MEMBROS</a></li>
+                        <li><a href="timeline.html"  style="transition: all 1.0s linear;">TIMELINE</a></li>
+                        
+                      </ul>
+                    </li>
+                    <!-- <li><a href="logbook.html">LOGBOOK</a></li> -->
+                    <li><a href="#contacto">CONTACTO</a></li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header><!-- header close -->
+        
+    <!-- Slider Start -->
+    <section id="slider">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-2">
+            <div class="block">
+              <h1 class="animated fadeInUp">DOMOTICA</h1>
+              <p class="animated fadeInUp">A nova definição de tecnologia, segurança e conforto</p>
+              <p><a class="btn default" style="border-radius: 12px; font-size: 20px; background-color: #e7e7e7" href="https://youtu.be/t63RVM2aOEc"><i class="fa fa-play-circle-o" aria-hidden="true"></i>
+                 Vídeo Promocional</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Wrapper Start -->
+    <section id="intro">
+      <p><br><br></p>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 col-sm-12">
+            <div class="block">
+              <div class="section-title">
+                <h2>VISÃO</h2>
+                <p>Com a evolução da era digital, a cada dia que passa são alcançados passos que tornam as pequenas coisas do dia a dia cada vez mais simples e mais acessíveis.</p>
+              </div>
+              <p>Domótica é um projeto inovador que permite o controlo de várias situações que ocorrem dentro de uma habitação colocando o utilizador do sistema em contacto permanente com a sua casa mesmo estando a uma longa distância. Neste momento, existem apenas funcionalidades que permitem tornar uma casa mais segura ou mais inteligente, como é o caso de um alarme de proteção habitacional que é ativado após a entrada não desejada de pessoas, ou como é o caso de sensores de luminosidade que ligam/desligam luzes consoante a presença de movimento. </p>
+
+              <p><br>Documento completo: <a href="https://docs.google.com/document/d/1QdPeFSZGu96q9b9mHV4CKzgl5NlKGvWq0OYs9HR4aU8/edit?usp=sharing">Relatório Visão</a></p>
+
+            </div>
+          </div><!-- .col-md-7 close -->
+          <div class="col-md-5 col-sm-12">
+            <div class="block">
+              <img src="img/wrapper-img.gif" align="center">
+            </div>
+          </div><!-- .col-md-5 close -->
+        </div>
+      </div>
+    </section>
+
+    <section id="intro_c">
+      <p><br><br></p>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 col-sm-12">
+            <div class="block">
+              <img src="img/produto.gif" align="center">
+            </div>
+          </div><!-- .col-md-5 close -->
+          <div class="col-md-7 col-sm-12">
+            <div class="block">
+              <div class="section-title">
+                <h2>Conceito do Produto</h2>
+              </div>
+              <p>O produto consiste numa interface que se encontra em contacto com vários sensores espalhados dentro da habitação do utilizador, dando, assim, a possibilidade de existir um maior controlo quer a nível da segurança interna da casa como a nível de conforto da mesma. </p>
+              <p>O utilizador irá interagir apenas com a intergace onde poderá, por exemplo, ligar/desligar as luzes de sua casa, monitorizar o movimento numa dada divisão, visualizar em tempo real as entradas de sua casa, controlar a temperatura interna. <br><br></p>
+
+            </div>
+          </div><!-- .col-md-7 close -->
+        </div>
+        <p><br><br></p>
+      </div>
+    </section>
+
+    <section>
+      <p><br><p>
+    </section>
+
+  <section id="feature">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-6">
+          <h2>WE BELIEVE IN GREAT IDEAS</h2>
+          <p>"There is no doubt that scientific advances depend not only on new ideas, conceptual leaps and paradigm shifts, but also to a large extent on technological advances that make these steps possible. </p>
+          <p>Technology is described in the dictionary as the branch of knowledge that deals with the creation and use of technical means and their interrelation with life, society, and the environment, drawing upon such subjects as industrial arts, engineering, and applied science.</p>
+          <p>The dream of a fully automated home has existed for a long time. Since the early 20th century people have dreamed of computerized abodes complete with self-operating dishwashers, blinds that open as the sun rises and robot maids.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+        
+    <!-- Service Start -->
+    <section id="service">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>CAPACIDADES E FUNCIONALIDADES</h2>
+            <p><br>Apresentamos algumas das principais capacidades e funcionalidades do nosso sistema<br></p>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-sm-6 col-md-6">
+            <div class="service-item">
+              <i class="fa fa-home fa-3x"></i>
+              <h4>Controlo da habitação à distância</h4>
+              <p>O utilizador pode controlar facilmente as várias ações através da interface disponibilizada</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6">
+            <div class="service-item">
+              <i class="fa fa-video-camera fa-3x"></i>
+              <h4>Videovigilância em tempo real</h4>
+              <p>Em qualquer altura do dia, esteja onde estiver, o utilizador pode ligar-se às câmaras distribuidas pela sua habitação</p>             
+            </div>
+          </div>
+        </div>
+        <p><br></p>
+        <div class="row ">
+          <div class="col-sm-6 col-md-6">
+            <div class="service-item">
+              <i class="ion-ios-lightbulb-outline"></i>
+              <h4>Controlo do sistema de iluminação</h4>
+              <p>É possível ligar/desligar a luz da sua residência através de um simples botão. O modo de controlo de iluminação disponibiliza ainda outras funcionalidades: regulador de intensidade da luz e alteração do modo de luz (quente, frio, normal)</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6">
+            <div class="service-item">
+              <i class="ion-flame"></i>
+              <h4>Alertas de perigo</h4>
+              <p>Em caso de alguns perigo iminentes, o sistema encontra-se preparado para notificar o utilizador, como é o caso de valores acentuados de monoxido de carbono, butano, propano, dióxido de carbono</p>
+            </div>
+          </div>
+        </div>
+        <p><br></p>
+        <div class="row ">
+          <div class="col-sm-6 col-md-6">
+            <div class="service-item">
+              <p><br></p>
+              <i class="fa fa-line-chart fa-3x"></i>
+              <h4>Visualização de consumos</h4>
+              <p>Numa vertente de gestão, é possível analisar através de gráficos os respetivos consumos</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6">
+            <div class="service-item">
+              <i class="ion-thermometer"></i>
+              <h4>Controlo da temperatura e humidade</h4>
+              <p>O utilizador pode monitorizar facilmente as a temperatura de sua casa. O sistema apresentará em tempo real a temperatura atual da habitação, assim como a humidade da mesma</p>
+            </div>
+          </div>
+        </div>
+        <p><br></p>
+        <div class="row ">
+          <div class="col-sm-6 col-md-6">
+            <div class="service-item">
+              <i class="ion-ios-locked-outline"></i>
+              <h4>Controlo de segurança interna</h4>
+              <p>É possível através da interface verificar o estado das portas de sua casa, podendo ainda, numa medida de segurança trancar ou destrancar as mesmas.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6">
+            <div class="service-item">
+              <i class="ion-flash"></i>
+              <h4>Controlo da energia consumida</h4>
+              <p>O utilizador verificar a quantidade de energia que está a ser consumida na sua habitação</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <!-- Call to action Start -->
+    <section id="call-to-action">
+      <p><br><br></p>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="block">
+              <h2>VANTAGENS</h2>
+              <p><br></p>
+              
+              <div class="row ">
+                <div class="col-sm-6 col-md-4">
+                  <div class="service-item">
+                    <i class="fa fa-heart fa-3x"></i>
+                    <h4>Conforto</h4>
+                    <p>Aumento do conforto e comodidade dos nossos clientes </p>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <div class="service-item">
+                    <i class="fa fa-leaf fa-3x"></i>
+                    <h4>Eficiencia Energética</h4>
+                    <p>O sistema permite uma maior eficácia energética reduzindo gastos de energia desnecessários </p>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <div class="service-item">
+                    <i class="fa fa-lock fa-3x"></i>
+                    <h4>Segurança</h4>
+                    <p>Maior segurança da habitação tornando mais descansado o utilizador ao saber que a sua residência encontra-se protegida</p>
+                  </div>
+                </div>
+              </div>
+              <p><br></p>
+              <div class="row ">
+                <div class="col-sm-6 col-md-4">
+                  <div class="service-item">
+                    <i class="fa fa-euro fa-3x"></i>
+                    <h4>Custo Aquisição</h4>
+                    <p>Parecendo que não, o custo de aquisição de um sistema de domótica é baixo uma vez que o investimento é recuperado a longo prazo</p>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <div class="service-item">
+                    <i class="fa fa-laptop fa-3x"></i>
+                    <h4>Simples</h4>
+                    <p>Sistema de fácil utilização</p>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <div class="service-item">
+                    <i class="fa fa-recycle fa-3x"></i>
+                    <h4>Otimização</h4>
+                    <p>Concilia a tecnologia com a economia energética, de forma eficaz, para proporcionar o conforto ideal</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <p><br><p>
+      </div>
+    </section>
+
+
+
+    
+    <!-- Content Start -->
+    <section id="equipa">
+      <div class="container">
+        <div class="row">
+        	<p><br></p>
+          <div class="section-title text-center">
+            <h2>EQUIPA</h2>
+            <p><br></p>
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-sm-6 col-md-4">
+            <div class="service-item" align="center">
+              <img src="img/Carolina1.jpg" width="200px" height="200px">
+              <h4>Carolina Albuquerque</h4>
+              <p>Email: carolinaalbuquerque@ua.pt <br> Responsável do Grupo</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="service-item" align="center">
+              <img src="img/David.jpg" width="200px" height="200px">
+              <h4>David Fernandes</h4>
+              <p>Email: dasfernandes@ua.pt <br>Controlador de qualidade</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="service-item" align="center">
+              <img src="img/Moleirinho.jpg" width="200px" height="200px">
+              <h4>André Moleirinho</h4>
+              <p>Email: afmoleirinho@ua.pt <br>Responsável Documentação</p>
+            </div>
+          </div>
+        </div>
+        <p><br></p>
+        <div class="row ">
+          <div class="col-sm-6 col-md-6">
+            <div class="service-item" align="center">
+              <img src="img/Dimitri.jpg" width="200px" height="200px">
+              <h4>Dimitri Silva</h4>
+              <p>Email: dimitrisilva@ua.pt <br>Developer</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6">
+            <div class="service-item" align="center">
+              <img src="img/Manel.jpg" width="200px" height="200px">
+              <h4>Manuel Felizardo</h4>
+              <p>Email: manuel.felizardo@ua.pt <br>Developer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+ <!-- Content Start -->
+    <section id="contacto">
+      <div class="container">
+        <div class="row">
+          <div class="section-title text-center">
+            <h2>CONTACTO</h2>
+            <p><br></p>
+            <div class="row ">
+              <div class="col-sm-6 col-md-6">
+                <div class="service-item">
+                  <div class="row ">
+                    <div class="col-sm-12 col-md-12">
+                      <div class="service-item text-left">
+                        <h4>ENDEREÇO</h4>
+                        <p>Departamento de Electrónica, Telecomunicações e Informática<br>Universidade de Aveiro<br>Campus Universitário de Santiago<br>3810-193 Aveiro</p>
+                        <p><br><br></p>
+                        <h4>PARA CONTACTAR A EQUIPA FAÇA-O ATRAVÉS DO RESPONSÁVEL DE EQUIPA:</h4>
+                        <p>Carolina Albuquerque (80038)<br>Email: carolinaalbuquerque@ua.pt</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <div class="col-sm-6 col-md-6">
+                  <div class="service-item">
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1513.9239491942458!2d-8.660150294308789!3d40.633236208487766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd23a2aaafda5eb1%3A0xb7479e7acd5edb6e!2sDepartamento+de+Electr%C3%B3nica%2C+Telecomunica%C3%A7%C3%B5es+e+Inform%C3%A1tica!5e0!3m2!1spt-PT!2spt!4v1508422274624" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>   
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6">
+            <div class="service-item" align="center">
+              
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <!-- footer Start -->
+            
+            
+  <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+            
+    
+    </body>
+</html>
